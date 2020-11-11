@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+html {
+    font-size: 16px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    background-color: rgb(35, 193, 255);
+}
+
+.container {
+    width: 94%;
+    max-width: 100%;
+    min-height: 100vh;
+    margin: auto;
+    padding: 20px;
+    background-image: url("brooke-lark-4J059aGa5s4-unsplash_large.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.heading .logo {
+    font-size: 2.5rem;
+    min-width: 279px;
+}
+
+#ctc {
+    font-size: 1.5rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    /* font-size: 1.4rem; */
+    list-style: none;
+    margin: 10px;
+}
+
+nav ul li {
+    font-size: 1.4rem;
+}
+
+nav a {
+    padding: 5px;
+}
+
+nav a:hover {
+    background-color: rgb(23, 22, 105);
+    color: white;
+}
+
+.highlight {
+    font-weight: bolder;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.icon {
+    display: none;
+}
+
+.mainSec {
+    margin: 30px;
+    padding-top: 30px;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.mainSec button {
+    font-size: 1.4rem;
+    margin-right: 5px;
+    padding: 10px;
+}
+
+.subCont2 ul {
+    list-style: none;
+}
+
+.subCont2 ul li {
+    padding: 5px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+        min-width: 544px;
+
+        padding: 15px;
+        justify-content: space-between;
+    }
+
+    .heading .logo {
+        font-size: 2.0rem;
+        min-width: 279px;
+    }
+
+    #ctc {
+        font-size: 1.3rem;
+    }
+
+    nav ul {
+        margin: 0px;
+    }
+
+    nav ul li {
+        font-size: 1.2rem;
+    }
+
+    .mainSec {
+        margin: 25px;
+        padding-top: 25px;
+        font-size: 1.8rem;
+    }
+
+    .mainSec button {
+        font-size: 1.3rem;
+        margin-right: 5px;
+        padding: 8px;
+    }
+
+}
+
+@media only screen and (min-width: 600px) {
+    .container {
+        width: 100%;
+
+        /* min-width:707px; */
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        padding: 20px;
+
+    }
+
+    .heading .logo {
+        font-size: 2.5rem;
+
+    }
+
+    #ctc {
+        font-size: 1.5rem;
+    }
+
+    nav ul li {
+        font-size: 1.4rem;
+    }
+
+    .mainSec {
+        margin: 25px;
+        padding-top: 20px;
+        font-size: 2.2rem;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .mainSec button {
+        font-size: 1.5rem;
+        margin-right: 5px;
+        padding: 10px;
+    }
+
+
+    .subCont2 ul li {
+        padding: 5px;
+        font-size: 1.2rem;
+    }
+
+    .subCont2 {
+        margin-bottom: -25px;
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+    .container {
+        padding: 20px;
+
+    }
+
+    .heading .logo {
+        font-size: 3.5rem;
+
+    }
+
+    #ctc {
+        font-size: 2rem;
+    }
+
+    nav ul li {
+        font-size: 1.6rem;
+    }
+
+    .mainSec {
+        margin: 25px;
+        padding-top: 15px;
+        font-size: 2.4rem;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .mainSec button {
+        font-size: 1.7rem;
+        margin-right: 10px;
+        padding: 12px;
+    }
+
+
+    .subCont2 ul li {
+        padding: 10px;
+        font-size: 1.3rem;
+    }
+
+    .subCont2 {
+        margin-bottom: -45px;
+    }
+
+}
+
+
+@media only screen and (min-width: 1200px) {
+    .container {
+        padding: 20px;
+        max-width: 1400px;
+
+    }
+
+    .heading .logo {
+        font-size: 4.5rem;
+
+    }
+
+    #ctc {
+        font-size: 3rem;
+    }
+
+    nav ul li {
+        font-size: 1.8rem;
+    }
+
+    .mainSec {
+        margin: 25px;
+        padding-top: 15px;
+        font-size: 2.8rem;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .mainSec button {
+        font-size: 1.9rem;
+        margin-right: 10px;
+        padding: 15px;
+    }
+
+
+
+
+    .subCont2 ul li {
+        padding: 10px;
+        font-size: 1.5rem;
+    }
+
+    .subCont2 {
+        margin-bottom: -40px;
+    }
+
+}
