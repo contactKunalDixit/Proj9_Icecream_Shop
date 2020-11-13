@@ -4,38 +4,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restaurant Ver. 2</title>
-    
-
+    <title>Restaurant</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
         integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
         crossorigin="anonymous" />
-    <link rel="stylesheet" href="style4.css">
+    <!-- <link rel="stylesheet" href="style3_MobileFirst.css"> -->
+    <link rel="stylesheet" href="style3_MobileFirst.css">
 </head>
 
 <body>
     <div class="container">
-        <div class="pre-nav">
-            <a href="#" class="logo"><i class="fas fa-utensils"></i>Uncle's Kitchen<a>
-                    <a href="#">Call us on 99 999 9999</i></a>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#" class="active">Home</a></li>
-                <li><a href="#">Menu</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#" class="highlight">Book a Table</a></li>
-            </ul>
-        </nav>
+        <div class="subCont1">
+            <header>
+                <div class="heading">
+                    <div class="logo">
+                        <p><i class="fas fa-utensils"></i> Uncle's Kitchen</p>
+                    </div>
+                    <p id="ctc">Call us on 99-999-999</p>
+                </div>
+                <nav >
+                    <ul class="topnav" id="myTopnav">
+                        <li><a href="#" class="highlight">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Book a Table</a></li>
+                      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                                <i class="fa fa-bars"></i>
+                            </a>
+                        
+                    </ul>
+                </nav>
+            </header>
 
-        <div class="content">
-            <h1>Try something new</h1>
-            <a href="#" class="white-link">Book a Table</a>
-            <a href="#" class="teal-link">View our Menu</a>
+            <div class="mainSec">
+                <p>Try something new!</p>
+
+                <div class="butt">
+                    <button>View Our Menu</button>
+                    <button> Book a Table</button>
+                </div>
+            </div>
+        </div>
+        <div class="subCont2">
+            <footer>
+                <ul>
+                    <li>Address: Shop#137, Bedok Reservoir Road, Australia,13999 </li>
+                    <li>Email:Hello@UncleKitchen.com</li>
+
+                </ul>
+
+
+            </footer>
         </div>
 
     </div>
+
     <script src="app.js"></script>
 </body>
 
