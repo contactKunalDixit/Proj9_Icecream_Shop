@@ -14,6 +14,11 @@ body {
     background-color: rgb(35, 193, 255);
 }
 
+ul{
+    padding:0;
+}
+
+
 .container {
     width: 94%;
     max-width: 100%;

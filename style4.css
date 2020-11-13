@@ -1,0 +1,86 @@
+@import "./reset.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+html {
+    font-size: 16px;
+}
+
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(35, 193, 255);
+}
+
+.container {
+    background-image: url("brooke-lark-4J059aGa5s4-unsplash_medium.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 95%;
+    margin: 0 auto;
+    min-height: 100vh;
+    min-width: 500px;
+    max-width: 1400px;
+    padding: 1rem;
+}
+
+a {
+    color: rgb(224, 17, 17);
+    text-decoration: none;
+}
+
+.pre-nav {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.7rem;
+
+}
+
+.logo {
+    color: #026E78;
+    font-weight: bold;
+}
+
+nav{
+    padding:0.5rem 0;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+nav li {
+    flex: 1;
+}
+
+nav li a {
+    background-color: #2D99A4;
+    padding: 1rem 2rem;
+    display: block;
+    text-align: center;
+}
+
+nav a.active {
+    background-color: white;
+    color: #2D99A4;
+    font-weight: bold;
+}
+
+nav a.highlight {
+    background-color: #026e78;
+    color: #fff;
+}
+
+nav a:hover{
+    opacity: 0.8;
+}
+
+.content{
+    display:flex;
+    flex:1;
+    flex-direction: column;
+    justify-content: center;
+}
